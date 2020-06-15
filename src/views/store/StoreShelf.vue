@@ -1,7 +1,7 @@
 <!-- 书架组件 -->
 <template>
   <div class="store-shelf">
-
+    <shelf-title :title="$t('shelf.title')"></shelf-title>
     <scroll class="store-shelf-scroll-wrapper"
             :top="0"
             :bottom="scrollBottom"
